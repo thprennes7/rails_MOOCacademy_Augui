@@ -1,5 +1,5 @@
 
-#Rails MOOCademy
+<h1>Rails MOOCademy</h1>
 
 ![OGGY](https://media.giphy.com/media/52F9ssEmLkLXEkVoke/giphy.gif)
 
