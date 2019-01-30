@@ -7,3 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
+
+Course.destroy_all
+Lesson.destroy_all
+5.times do
+  Course.create!(name: Faker::Name.name, description: Faker::BojackHorseman.quote)
+  5.times do
+    Lesson.create!(title: Faker::Cannabis.health_benefit, body: Faker::BojackHorseman.quote, course_id: Course.last.id)
+  end
+end
