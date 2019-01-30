@@ -1,24 +1,25 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Rails MOOCademy
 
-Things you may want to cover:
+![OGGY](https://media.giphy.com/media/52F9ssEmLkLXEkVoke/giphy.gif)
 
-* Ruby version
+Création d'une application base de données pour la statup MOOCademy, une plateforme d'apprentissage en ligne. Pour cela nous avons créer deux tables :
+  * Course
+  * Lesson
 
-* System dependencies
+Pour récupérer notre app rien de plus simple:
+<pre><code> $ git clone https://github.com/thprennes7/rails_MOOCacademy_Augui</code></pre>
 
-* Configuration
+<pre><code> $ Bundle install</code></pre>
 
-* Database creation
+Pour te facilité la tâche, tu peux faire des fakes random, pour cela:  
+<pre><code> $ rails db:seed </code></pre>
 
-* Database initialization
+Et voila ta base de donnée est rempli
 
-* How to run the test suite
+![danse](https://media.giphy.com/media/3oz8xPzHi7P2hVyVMs/giphy.gif)
 
-* Services (job queues, cache servers, search engines, etc.)
+Maintenant, on te laisse checker comme un grand et on attends ton appel.
 
-* Deployment instructions
 
-* ...
+Made by Guillaume et Aurélien.
